@@ -1,6 +1,7 @@
 *{
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 
 /* .header
@@ -93,7 +94,18 @@ footer span{
 }
 .des_initial{
     /* border: 1px solid red; */
-    background-image: url(images/dominik-dancs-5jy7qGmArQw-unsplash.jpg);
+    background-image: url(images/mamun-srizon-qay3lNDSHzc-unsplash.jpg);
+    background-position: 50px auto;
     background-size: cover;
     height: 500px;
+}
+.div9{
+    left: 100px;
+}
+.card{
+    left: 185px;
+}
+
+.des{
+    background-color:paleturquoise;
 }

@@ -94,3 +94,12 @@ footer span{
     text-align: center;
     background-color:darkslategray;
 }
+#carouselExampleControls{
+    position: relative;
+}
+.div1{
+    position: absolute;
+   top: 330px;
+   left: 535px;
+   color: honeydew;
+}

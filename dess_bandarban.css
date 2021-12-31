@@ -1,15 +1,15 @@
-.header
-{
-    text-align: center;
-    background-color:#333f48;
-}
-
 *{
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 
-
+/* .header
+{
+    height: 750px;
+    background-image: linear-gradient(rgba(184, 226, 243, 0),rgba(172, 210, 212, 0.8)),url("images/simon-english-48nerZQCHgo-unsplash.jpg");
+    background-size: cover;
+} */
 
 .navbar{
     background-color: #e9e9e9;
@@ -26,10 +26,14 @@
     background-color: #2a8fad;
 }
 
-
+.card img{
+    height: 375px;
+    width: 415px;
+}
 .dropdown-item:hover{
     background-color:rgba(172, 210, 212, 0.8);
 }
+
 
 
 /* Footer section */
@@ -76,17 +80,25 @@ footer span{
 }
 .img_section{
     text-align: center;
-    /* background-color:darkslategray; */
-    background-color: #333f48;
-}
-h2,h4,p{
-   color: snow;
+    background-color:darkslategray;
 }
 
+.places{
+    margin-top: 150px;
+}
+.sub_img{
+    height: 500px;
+    width: 100%;
+    background-image: url(images/n1.jpg);
+    background-size: cover;
+}
 .des_initial{
     /* border: 1px solid red; */
     background-image: url(images/mamun-srizon-qay3lNDSHzc-unsplash.jpg);
     background-position: 50px auto;
     background-size: cover;
     height: 500px;
+}
+.des{
+    background-color:paleturquoise;
 }
